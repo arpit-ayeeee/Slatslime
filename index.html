@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>MY PORTFOLIO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<link href="https://fonts.googleapis.com/css?family=Catamaran|Cormorant+Garamond&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    	<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>							<!-- FOR THE HEADERS SUCH AS NAVIGATION BAR AND MENU BAR -->
+			<a href="index.html" class="headrbrand">slatslatslime</a> <!-- The title of the page -->
+			<nav>																
+				<ul>					<!--Unordered list for making the menu bar-->
+					<li><a href="#" onclick="$ss.loadabtm();">About me</a></li>  
+					<li><a id="cont">Contact</a></li> 
+					<li><a href="#workss">Works</a></li>
+				</ul>
+				<a href="#" onclick="$ss.loadexplore();" class="headrexplr">Explore</a><!--The corner link is the header tag-->
+			</nav>
+		</header>
+		<div id="contModal" class="modal fade" role="dialog">
+			<div class="modal-dialog model-lg" role="content">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2 class="modal-title">Hit Me Up!</h2>
+						<button role="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-7">
+								<ul>
+					                    <li><h1>My Address</h1></li>
+					                    <li><p>BMSIT, Avalahalli<br>Yelahanka, Bengaluru, India<br><p></li>
+						                <li><i class="fa fa-phone fa-lg"></i> :6266066700<br></li>
+						                <li><i class="fa fa-envelope fa-lg"></i> : <a href="mailto:arpitjaiswal282000@gmail.com">arpitjaiswal282000@gmail.com</a></li>
+							    </ul>
+							</div>
+						    <div class="col-5 btn btn-group">
+						    	<div class="row align-items-center" id="soc">
+						    		<div class="col-6">
+							    		<a class="btn btn-social-icon btn-facebook" href="https://www.instagram.com/arpit.ayeeeeeeeee"><i class="fa fa-instagram"></i></a>
+							    	</div>
+							    	<div class="col-6">
+				                		<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/arpitjaiswal282000"><i class="fa fa-facebook"></i></a>
+				                	</div>
+				                	<div class="col-6">
+				                		<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/arpit-jaiswal-a63076172"><i class="fa fa-linkedin"></i></a>
+				                	</div>
+				                	<div class="col-6">
+				                		<a class="btn btn-social-icon btn-github" href="https://github.com/arpit-ayeeee"><i class="fa fa-github"></i></a>
+				                	</div>
+				                	<div class="col-6">
+				                        <a class="btn btn-social-icon btn-google" href="mailto:arpitjaiswal282000@gmail.com"><i class="fa fa-envelope-o"></i></a>
+				                    </div>
+			                    </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main id="main-content"><!-- For the main body menu opart, such as banner and links -->
+			
+		</main>
+			<div > 	
+				<footer><!-- here we'll make two unordered lists as per desktop view, and for mobile view we'll disappear the second list in CSS file -->
+					<div class="row">
+						<div class="col-3 col-sm-2">
+							<ul class="footer-mainlink">		<!-- For the first list -->
+								<li style="padding-bottom: 15px;"><a href="index.html">Home</a></li>
+								<li style="padding-bottom: 15px;"><a href="#" onclick="$ss.loadexplore();">Explore</a></li>
+								<li style="padding-bottom: 15px;"><a href="#" onclick="$ss.loadabtm();">About Me</a></li>
+								<li style="padding-bottom: 15px;"><a href="#" onclick="$ss.loadamd()";>Amd</a></li>
+								<li style="padding-bottom: 15px;"><a href="#">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col-9 col-sm-6">
+							<ul class="footer-mainlink">
+			                    <li><h1>My Address</h1></li>
+			                    <li><p>BMSIT, Avalahalli<br>Yelahanka, Bengaluru, India<br><p></li>
+				                <li><i class="fa fa-phone fa-lg"></i> : 6266066700<br></li>
+				                <li><i class="fa fa-envelope fa-lg"></i> : <a href="mailto:confusion@food.net">arpitjaiswal282000@gmail.com</a></li>
+					        </ul>
+	                	</div>
+	                	<div class="col-12 col-sm-4 align-self-center" id="social">
+		                		<a class="btn btn-social-icon btn-facebook" href="https://www.instagram.com/arpit.ayeeeeeeeee"><i class="fa fa-instagram"></i></a>
+		                		<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/arpitjaiswal282000"><i class="fa fa-facebook"></i></a>
+		                		<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/arpit-jaiswal-a63076172"><i class="fa fa-linkedin"></i></a>
+		                		<a class="btn btn-social-icon btn-github" href="https://github.com/arpit-ayeeee"><i class="fa fa-github"></i></a>
+		                        <a class="btn btn-social-icon btn-google" href="mailto:arpitjaiswal282000@gmail.com"><i class="fa fa-envelope-o"></i></a>
+	                	</div>
+	                </div>
+				</footer>
+			</div>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/ajax-utils.js"></script>
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+<html>
